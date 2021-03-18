@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MyAnimeListReactUI/precache-manifest.54ab9c584e06248ab2b5c3c7167a50b4.js"
+  "/MyAnimeListReactUI/precache-manifest.b4f650b0cfc2d397122b1c43737a306b.js"
 );
 
 workbox.clientsClaim();
