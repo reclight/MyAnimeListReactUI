@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 
 const routing = (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <div>
             <Route exact path="/" component={SeasonApp} />
             <Route exact path="/reddit" component={RedditApp} />
