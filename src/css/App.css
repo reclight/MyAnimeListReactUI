@@ -1,0 +1,397 @@
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+@font-face{
+    font-family:'BigJohnPRO-Light';
+    src:url('../fonts/BigJohnPRO-Light.otf');
+}
+  
+@font-face{
+font-family:'Poppins-Semibold';
+src:url('../fonts/Poppins-SemiBold.otf');
+}
+
+@font-face{
+    font-family:'Poppins-Regular';
+    src:url('../fonts/Poppins-Regular.otf');
+    }
+
+@font-face{
+font-family:'Poppins-Light';
+src:url('../fonts/Poppins-Light.otf');
+}
+
+.header-bar{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 30px 60px 20px 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    display: block;
+}
+
+.header-title{
+    color: #000000;
+    font-family: 'Poppins-Semibold', helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+body{
+    background-color:#FFFFFF;
+}
+
+.left-bar{
+    margin: 0;
+    padding: 150px 50px 100px 50px;
+    background-color: #ffffff;
+    width: 100%;
+    position:relative;
+}
+
+.left-bar-text-title{
+    font-family: 'Poppins-Semibold';
+}
+
+.left-bar-text-title::after{
+    display: block;
+    position: relative;
+    z-index:100;
+    bottom: -6px;
+    left: 0px;
+    width: 60px;
+    height: 4px;
+    content: '';
+    background: #ffc300;
+}
+
+.left-bar-text-body{
+    font-family: 'Poppins-Light';
+}
+
+.appcard{
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    margin: 10px auto 10px auto;
+    width: 100%;
+    max-width: 200px;
+    min-width: 180px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow:  0 0px 1px rgba(0, 0, 0, 1);
+}
+
+.appcard:hover{
+    box-shadow:  0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+
+.appcard-title{
+    font-size: 1rem!important;
+    font-family: 'Poppins-Light';
+    margin: 20px 20px 0px 20px;
+    text-align: center;
+}
+
+.animecard:hover{
+    box-shadow:  0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+
+.animecard{
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    margin: 15px auto 15px auto;
+    width: 100%;
+    max-width: 200px;
+    min-width: 180px;
+    padding: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow:  0 0px 1px rgba(0, 0, 0, 1);
+}
+
+.listcard{
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    margin: 5px auto 5px auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.listcard:hover{
+    box-shadow:  0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+
+.animecard-title{
+    font-size: 0.9rem!important;
+    font-family: 'Poppins-Light';
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+}
+
+.search-input{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    font-family: "Poppins-Light";
+    border-radius: 30px;
+    margin: 0px auto 40px auto;
+    border: none;
+    font-size: 0.9 rem;
+    padding: 10px 30px;
+    width: 100%;
+    max-width: 200px;
+    min-width: 180px;
+}
+
+.search-input:hover{
+    box-shadow:  0 0px 5px 1px #9ecaed;
+    transition: box-shadow 0.2s;
+}
+
+.search-input:focus{
+    box-shadow:  0 0px 5px 1px #ffc300;
+    outline: none;
+    transition: box-shadow 1s;
+}
+
+.episode-list{
+    border-color:#e9ebee;
+    margin: 10px 0px 10px 0px;
+    border-radius:30px!important;
+}
+
+.episode-list:hover{
+    box-shadow: 0px 0px 3px #ffc300;
+    border-color: #ffc300;
+    transition: all 0.3s;
+}
+
+.episode-list:focus{
+    border-color: #ffc300;
+    outline: none;
+}
+
+.app-list-title{
+    text-align: center;
+    font-family: 'Poppins-Light';
+    font-size: 1.3em;
+    margin: 0px 15px 0px 15px;
+}
+
+.app-list-header{
+    margin: 10px 10px 40px 10px;
+}
+
+.appcard-image{
+    position: relative;
+    display: block;
+    width:60%;
+    margin: 0 auto 0 auto;
+}
+
+.animecard-image{
+    position: relative;
+    display: block;
+    width:100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.fade-slide{
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition: all 0.5s;
+}
+
+.fade-slide.visible{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.anime-video{
+    position: relative;
+    display: block;
+    width:90%;
+    margin: -10px auto 10px auto;
+    overflow: hidden;
+}
+
+.clock-text{
+    font-family: "BigJohnPRO-Light";
+    font-size: 4rem;
+    letter-spacing: 10px;
+}
+
+.top-bar-text{
+    font-family: "Poppins-Light";
+}
+
+.schedule-title{
+    font-family: "Poppins-Light";
+    text-align:right;
+    font-size: 2rem;
+    margin: 3px 0 40px 0;
+}
+
+.calendar-text{
+    text-align: right;
+    font-size: 1rem;
+}
+
+.card-image{
+    width: 100%;
+}
+
+.card-title{
+    font-family: "Poppins-Regular";
+    text-align:center;
+    font-size: 1.3rem;
+    margin: 3px 0 10px 0;
+}
+
+.date-text{
+    font-family: "Poppins-Light";
+    margin: 3px 0px 0px 0px;
+}
+
+.anime-detail-img{
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto 30px auto;
+}
+
+.anime-detail-synopsis{
+    margin: 0 30px 0 30px;
+}
+
+hr{
+    margin: 0px 0px 40px 10px;
+}
+
+.anime-box-container{
+    display: block;
+    margin: 30px auto 30px auto;
+    background-color: #ffc300;
+    padding: 15px 20px 0px 20px;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.anime-box-container:hover{
+    box-shadow:  0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: all 1s;
+}
+
+.anime-box-text{
+    color: #fff;
+    text-align: center;
+}
+
+.max-width-100{
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.scrolling-wrapper {
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+
+.right-column{
+    padding-top:100px;
+}
+
+.scrolling-wrapper .animecard {
+    flex: 0 0 auto;
+    margin: 0px 10px 0px 10px!important;
+}
+
+.top-bar{
+    background-color:#ECEBED;
+    padding: 80px;
+    margin: 10px 40px;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+    .left-bar{
+        height: 100%;
+        position: fixed;
+        width:20%;
+        padding: 120px 50px 100px 50px;
+    }
+
+   
+
+    .appcard{
+        position: relative;
+        margin: 0px auto 20px auto;
+    }
+
+    .animecard{
+        position: relative;
+        margin: 20px auto 20px auto!important;
+    }
+
+    .app-list-header{
+        margin: 50px 10px 30px 10px;
+    }
+    
+    .anime-video{
+        width:100%;
+        margin: 50px auto 10px auto;
+        border-radius: 20px;
+    }
+
+    .search-input{
+        position: relative;
+        display: block;
+        background: #f9f9f9;
+        font-family: "Poppins-Light";
+        border-radius: 30px;
+        margin: 45px auto 30px auto;
+        border: none;
+        font-size: 0.9 rem;
+        padding: 10px 30px;
+        width: 90%;
+        max-width: 600px;
+        
+    }
+
+    .max-width{
+        max-width: none;
+    }
+    .half-width{
+        max-width: 300px;
+    }
+
+    .scrolling-wrapper .animecard{
+        flex: 0 0 auto;
+        margin: 0px 10px 0px 10px!important;
+    }
+
+    .scrolling-wrapper::-webkit-scrollbar{
+        visibility: hidden;
+    }
+}
