@@ -23,9 +23,11 @@ class AnimeCard extends React.Component {
             <Col sm>
                 <Link to={this.props.link}>
                     <div className="animecard">
-                        <img src={this.props.image} className="animecard-image" />
+                        <img alt={appCardTitle} src={this.props.image} className="animecard-image" />
+                        <div className='statuscard'>
+                            <h4 className="animecard-title">{watchingStatusMap[appWatchStatus]}</h4>
+                        </div>
                         <h4 className="animecard-title">{appCardTitle}</h4>
-                        <h4 className="animecard-title">{watchingStatusMap[appWatchStatus]}</h4>
                     </div>
                 </Link>
             </Col>
