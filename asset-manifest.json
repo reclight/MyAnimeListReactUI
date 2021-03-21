@@ -1,14 +1,14 @@
 {
-  "main.css": "/MyAnimeListReactUI/static/css/main.5633d080.chunk.css",
-  "main.js": "/MyAnimeListReactUI/static/js/main.fb521b2b.chunk.js",
-  "main.js.map": "/MyAnimeListReactUI/static/js/main.fb521b2b.chunk.js.map",
-  "static/js/1.0dde23ab.chunk.js": "/MyAnimeListReactUI/static/js/1.0dde23ab.chunk.js",
-  "static/js/1.0dde23ab.chunk.js.map": "/MyAnimeListReactUI/static/js/1.0dde23ab.chunk.js.map",
+  "main.css": "/MyAnimeListReactUI/static/css/main.108d7482.chunk.css",
+  "main.js": "/MyAnimeListReactUI/static/js/main.c3b2a38e.chunk.js",
+  "main.js.map": "/MyAnimeListReactUI/static/js/main.c3b2a38e.chunk.js.map",
+  "static/js/1.cdc0d727.chunk.js": "/MyAnimeListReactUI/static/js/1.cdc0d727.chunk.js",
+  "static/js/1.cdc0d727.chunk.js.map": "/MyAnimeListReactUI/static/js/1.cdc0d727.chunk.js.map",
   "runtime~main.js": "/MyAnimeListReactUI/static/js/runtime~main.558f3a48.js",
   "runtime~main.js.map": "/MyAnimeListReactUI/static/js/runtime~main.558f3a48.js.map",
   "static/media/App.css": "/MyAnimeListReactUI/static/media/Poppins-Light.02c5a7af.otf",
-  "static/css/main.5633d080.chunk.css.map": "/MyAnimeListReactUI/static/css/main.5633d080.chunk.css.map",
+  "static/css/main.108d7482.chunk.css.map": "/MyAnimeListReactUI/static/css/main.108d7482.chunk.css.map",
   "index.html": "/MyAnimeListReactUI/index.html",
-  "precache-manifest.f362aad8eb4ee798325cec81cf49289e.js": "/MyAnimeListReactUI/precache-manifest.f362aad8eb4ee798325cec81cf49289e.js",
+  "precache-manifest.6610848d39b5d66bd40d25190fa9e301.js": "/MyAnimeListReactUI/precache-manifest.6610848d39b5d66bd40d25190fa9e301.js",
   "service-worker.js": "/MyAnimeListReactUI/service-worker.js"
 }
