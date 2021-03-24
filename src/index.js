@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
-import RedditApp from './components/RedditApp';
-import SeasonApp from './components/SeasonApp';
-import AnimeDetail from './components/AnimeDetail';
+import RedditApp from './pages/RedditApp';
+import SeasonApp from './pages/SeasonApp';
+import AnimeDetail from './pages/AnimeDetail';
 import './css/index.css';
 import * as serviceWorker from './serviceWorker';
 import { Route, BrowserRouter as Router } from 'react-router-dom';

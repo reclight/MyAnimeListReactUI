@@ -55,18 +55,17 @@ class EpisodeList extends React.Component{
                     </Row>
                     <div className="anime-box-container">
                         <Row>
-                            
-                                <Col sm>
-                                    <p className="anime-box-text">Score: {this.state.animedetail.score}</p>
-                                </Col>
-                                <Col sm>
-                                    <p className="anime-box-text">Season: {this.state.animedetail.premiered}</p>
-                                </Col>
-                                <Col sm>
-                                    <p className="anime-box-text">Studio:
-                                        {this.state.studiodetail.name}
-                                     </p>
-                                </Col>
+                            <Col sm>
+                                <p className="anime-box-text">Score: {this.state.animedetail.score}</p>
+                            </Col>
+                            <Col sm>
+                                <p className="anime-box-text">Season: {this.state.animedetail.premiered}</p>
+                            </Col>
+                            <Col sm>
+                                <p className="anime-box-text">Studio:
+                                    {this.state.studiodetail.name}
+                                    </p>
+                            </Col>
                         </Row>
                     </div>
                     <div className="scrolling-wrapper">
@@ -74,6 +73,28 @@ class EpisodeList extends React.Component{
                             <CharacterCard image={content.image_url} title={content.name}></CharacterCard>
                         )}
                     </div>
+                    <hr />
+                    <Row>
+                        <Col sm>
+                            <AppHeader headertitle='Trailer' />
+                            <iframe
+                                className="trailer-iframe"
+                                src={this.state.animedetail.trailer_url}
+                                frameBorder="0"
+                                height="100%"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                                title="Embedded youtube"
+                            />
+                        </Col>
+                        <Col sm>
+                            <div className="anime-box-container">
+                                <p className="anime-box-text">Type: {this.state.animedetail.type}</p>
+                                <p className="anime-box-text">Source: {this.state.animedetail.source}</p>
+                                <p className="anime-box-text">Rating: {this.state.animedetail.rating}</p>
+                            </div>
+                        </Col>
+                    </Row>
                 </Container>
             </div>
         );

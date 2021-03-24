@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import '../css/App.css';
 import Header from './Header.js';
-import Leftcolumn from './Leftcolumn.js';
 import Rightcolumn from './Rightcolumn.js';
-import { Row , Col } from 'react-bootstrap';
 
 
 class App extends Component {

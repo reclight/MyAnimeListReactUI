@@ -194,7 +194,7 @@ body{
 }
 
 .app-list-header{
-    margin: 10px 10px 40px 10px;
+    margin: 0px 10px 0px 10px;
 }
 
 .appcard-image{
@@ -399,7 +399,11 @@ hr{
     position: absolute;
     z-index:10;
     margin: -60px 0 0 0;
-    opacity: 70%;
+    opacity: 0.7;
+}
+
+.trailer-iframe{
+    width:100%;
 }
 
 @media only screen and (min-width: 992px) {
